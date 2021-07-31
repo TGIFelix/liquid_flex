@@ -21,8 +21,7 @@
     {% render 'meta-tags' %}
 
     <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
-	<script src="{{ 'jquery.js' | asset_url }}" defer="defer"></script>
-	<script src="{{ 'app.js' | asset_url }}" defer="defer"></script>
+	<script src="{{ 'jquery.min.js' | asset_url }}" defer="defer"></script>
 
     {{ content_for_header }}
 
@@ -157,5 +156,7 @@
 
     <script src="{{ 'slider.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'variants.js' | asset_url }}" defer="defer"></script>
+	<script src="{{ 'swiper.min.js' | asset_url }}" defer="defer"></script>
+	<script src="{{ 'app.js' | asset_url }}" defer="defer"></script>
   </body>
 </html>
