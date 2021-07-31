@@ -1,0 +1,18 @@
+{
+  "sections": {
+    "1627772762e3f70a34": {
+      "type": "tw-hero",
+      "settings": {
+      }
+    },
+    "1627772765a6dc5689": {
+      "type": "tw-collection",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "1627772762e3f70a34",
+    "1627772765a6dc5689"
+  ]
+}
